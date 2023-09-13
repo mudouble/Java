@@ -13,5 +13,5 @@
 ### LocalTime和LocalDate是java8中用于处理时间和日期的类 LocalTime.now()  LocalTime.of(15,30) 15:30 同理LocalDate.of(2023,8,29)
 ### LocalDateTime.of(2023,8,23,15,30)
 ### ArrayList只能使用get获取对用位置的值
-### continue是跳过当前循环；break停止当前循环；return结束代码
+### continue是跳过当前语句，执行剩下的语句；break停止当前循环；return结束代码
 ### UUID.randomUUID()用于随机生成的通用唯一标识符

@@ -30,7 +30,6 @@ public class Criminal {
         this.location = location;
     }
 
-    @Override
     public String toString() {
         return "Criminal{" +
                 "code=" + code +
