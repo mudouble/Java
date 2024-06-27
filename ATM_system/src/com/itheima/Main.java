@@ -1,5 +1,7 @@
 package com.itheima;
 
+import com.other.A;
+
 import java.util.List;
 
 class ListNode{
@@ -54,6 +56,8 @@ public class Main{
         printList(newHead); // 输出：2 1 4 3 5
         Account account = new Account();
         System.out.println(account);
+        A a = new A();
+        System.out.println(a.str);
 
     }
 
