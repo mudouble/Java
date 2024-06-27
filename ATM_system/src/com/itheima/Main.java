@@ -57,6 +57,7 @@ public class Main{
         Account account = new Account();
         System.out.println(account);
         A a = new A();
+        System.out.println(a.s+20);
         System.out.println(a.str);
 
     }
