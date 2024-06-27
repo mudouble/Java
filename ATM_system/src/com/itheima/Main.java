@@ -52,6 +52,9 @@ public class Main{
         Solution solution = new Solution();
         ListNode newHead = solution.reverseKGroup(head,2);
         printList(newHead); // 输出：2 1 4 3 5
+        Account account = new Account();
+        System.out.println(account);
+
     }
 
     private static void printList(ListNode head) {
@@ -64,4 +67,3 @@ public class Main{
     }
 
 }
-
