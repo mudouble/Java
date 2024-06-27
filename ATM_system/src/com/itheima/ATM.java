@@ -72,7 +72,7 @@ public class ATM {
         String newCardId = createCardId();
         acc.setCardID(newCardId);
         //创建账户
-        accounts.add(acc);
+//        accounts.add(acc);
         System.out.println("Congratulate " + acc.getUserName() +
                 " Create A Account Successfully, and Your Card Number is " + newCardId);
     }
@@ -340,10 +340,10 @@ public class ATM {
 
     private Account getAccountByCarId(String cardId) {
         for (int i = 0; i < accounts.size(); i++) {
-            Account acc = accounts.get(i);
-            if (cardId.equals(acc.getCardID())) {
-                return acc;
-            }
+//            Account acc = accounts.get(i);
+//            if (cardId.equals(acc.getCardID())) {
+//                return acc;
+//            }
         }
         return null;
     }
